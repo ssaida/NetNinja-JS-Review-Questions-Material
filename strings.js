@@ -1,0 +1,20 @@
+let email = 'ssaida@gmail.com';
+console.log(email);
+let firstName = 'Samer';
+let lastName = 'Saida';
+let fullName = firstName +' '+ lastName;
+console.log(fullName);
+console.log(firstName[0]);
+console.log(firstName[2]);
+console.log('ssaida'[1]);
+console.log(fullName.length);
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
+console.log(email.indexOf('@'));
+// String Methods
+let result;
+result = email.lastIndexOf('a');
+result = email.substring(3, 5);
+result = email.slice(3, 5);
+result = email.replaceAll('m','X');
+console.log(result);
