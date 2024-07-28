@@ -1,0 +1,51 @@
+console.log('Hello, World!');
+let age = 43;
+let year = 2024;
+console.log(`Age: ${age} - Year: ${year}`);
+const points = 100;
+console.log(points);
+// points++;  
+console.log(points);
+var score = 75;
+console.log(score);
+
+// Strings
+let name = 'Samer Saida';
+console.log(name);
+let email = 'ssaida@gmail.com';
+console.log(email);
+console.log(name+ ' '+email);
+let firstName = 'Samer';
+let lastName = 'Saida';
+let fullName = firstName +' '+lastName;
+console.log(fullName);
+console.log(fullName[0]);
+console.log(fullName[1]);
+console.log(fullName.length);
+console.log(fullName.charAt(0));
+console.log(fullName.includes('S'));
+console.log(firstName.toUpperCase());
+console.log(fullName.toLowerCase());
+console.log(fullName.toUpperCase());
+let result = email.indexOf('@');
+console.log(result);
+console.log(email.indexOf('@'));
+console.log(email.lastIndexOf('m '));
+console.log(email.slice(0, 3));
+result = email.substring(0, 3);
+console.log(email.substring(0, 3));
+console.log(email.replaceAll('s', 'x'));
+console.log(email.replaceAll('a','A'));
+
+console.log('Numbers');
+result = 5 * (10 - 3)  ** 2;
+console.log(result);
+result = 5 * 10 - 3  ** 2;
+console.log(result);
+let radius = 10;
+let pi = 3.14;
+console.log(`Math Pi: ${Math.PI}`)
+console.log(pi * radius ** 2); 
+console.log(radius / pi );
+console.log('NaN');
+console.log(5 * 'hello');
