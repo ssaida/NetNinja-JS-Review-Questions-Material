@@ -3,8 +3,13 @@ let ul = document.querySelector('.people');
 let people = ['Samer Saida','Elay Guez','Yaakov Demensky'];
 let html = ``;
 people.forEach(person => {
-  html = `<li>${person}</li>`;
-  console.log(html);
+  let li = document.createElement('li');
+  li.textContent = `${person}`;
+  html += `<li>${person}</li>`;
+  // console.log(html);
+  // ul.append(li);
+  ul.innerHTML(html);
+  
 });
 
 // people.forEach(logPerson);
